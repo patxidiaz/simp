@@ -1,0 +1,170 @@
+{
+  "@context" : {
+    "isSister" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#isSister",
+      "@type" : "@id"
+    },
+    "Dog" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Dog"
+    },
+    "hasSibling" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#hasSibling",
+      "@type" : "@id"
+    },
+    "Fish" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Fish"
+    },
+    "hasFirstAppearanceIn" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#hasFirstAppearanceIn",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "isGrandChild" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#isGrandChild",
+      "@type" : "@id"
+    },
+    "VoiceActor" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#VoiceActor"
+    },
+    "Director" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Director"
+    },
+    "AdultWoman" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#AdultWoman"
+    },
+    "hasWriter" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#hasWriter",
+      "@type" : "@id"
+    },
+    "OldMan" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#OldMan"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Human" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Human"
+    },
+    "Character" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Character"
+    },
+    "isFather" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#isFather",
+      "@type" : "@id"
+    },
+    "hasVoiceActor" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#hasVoiceActor",
+      "@type" : "@id"
+    },
+    "Episode" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Episode"
+    },
+    "Animal" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Animal"
+    },
+    "isWriterOf" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#isWriterOf",
+      "@type" : "@id"
+    },
+    "Person" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Person"
+    },
+    "Writer" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Writer"
+    },
+    "hasAge" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#hasAge",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "isMemberOfFamily" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#isMemberOfFamily",
+      "@type" : "@id"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "isDirectorOf" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#isDirectorOf",
+      "@type" : "@id"
+    },
+    "hasMember" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#hasMember",
+      "@type" : "@id"
+    },
+    "Male" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Male"
+    },
+    "Family" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Family"
+    },
+    "hasBrother" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#hasBrother",
+      "@type" : "@id"
+    },
+    "AdultMan" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#AdultMan"
+    },
+    "isChild" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#isChild",
+      "@type" : "@id"
+    },
+    "hasSister" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#hasSister",
+      "@type" : "@id"
+    },
+    "Girl" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Girl"
+    },
+    "Female" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Female"
+    },
+    "hasHeight" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#hasHeight",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "isGrandFather" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#isGrandFather",
+      "@type" : "@id"
+    },
+    "OldWoman" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#OldWoman"
+    },
+    "isVoiceActorOf" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#isVoiceActorOf",
+      "@type" : "@id"
+    },
+    "terms" : {
+      "@id" : "http://purl.org/dc/terms/terms"
+    },
+    "Boy" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Boy"
+    },
+    "hasDirector" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#hasDirector",
+      "@type" : "@id"
+    },
+    "isFirstAppearanceOf" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#isFirstAppearanceOf",
+      "@type" : "@id"
+    },
+    "Cat" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Cat"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "isBrother" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#isBrother",
+      "@type" : "@id"
+    },
+    "Alien" : {
+      "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/simp#Alien"
+    }
+  }
+}
